@@ -1,0 +1,10 @@
+.logo {
+  border-radius: 4px;
+  transition: 1s;
+}
+
+
+.logo__text{
+    text-transform: uppercase;
+    text-align: center;    
+}

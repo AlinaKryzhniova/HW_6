@@ -1,0 +1,56 @@
+.todo__list-style {
+ text-decoration: none;
+     
+}
+.todo__list-style:nth-child(3n){
+    color: #BF8830;
+    font-size: 1.5em;
+}
+.todo__list-style-text {
+    text-decoration: line-through;
+}
+
+.todo__list-style-text:nth-child(3n){
+    color: #BF8830;
+    font-size: 1.5em;
+}
+.wrapper {
+    max-width: 360px;
+    margin: 50px auto 0;
+}
+
+
+.todo-form__input {
+    height: 30px;
+    width: 200px;
+    font-weight: bolder;
+}
+
+.todo-form {
+    background-color: #FF8540;
+    padding: 10px;
+    width: 340px;
+}
+
+.todo-form__button-color {
+    height: 35px;
+    background-color: #4284D3;
+    border: none;
+    color: white;
+    border-radius: 4px;
+}
+
+li {
+    width: 101%;
+    background-color: #35D3A7;
+    padding: 10px 15px;
+    border-top: 1px solid #A66500;
+}
+
+.todo-list {
+    list-style-type: none;
+    margin: 0;
+    padding: 0px;
+    width: 326px;
+}
+
